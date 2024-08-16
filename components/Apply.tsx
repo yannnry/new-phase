@@ -2,6 +2,7 @@ import React from "react";
 import { BackgroundBeams } from "./ui/BackgroundBeams";
 import { AnimatedModalDemo } from "./AnimatedModal";
 import { socialMedia } from "@/data";
+import Image from "next/image";
 
 const Apply = () => {
   return (
@@ -17,8 +18,8 @@ const Apply = () => {
               developers like you. Join a phenomenal company that offers
               excellent pay and a plethora of benefits. Be a part of a team that
               values your skills and provides the support and rewards you
-              deserve. If you're looking for a fantastic opportunity to grow and
-              excel, New Phase is the place for you!
+              deserve. If you&#39;re looking for a fantastic opportunity to grow
+              and excel, New Phase is the place for you!
             </p>
             <div className="relative z-50 mt-4">
               <AnimatedModalDemo />
@@ -38,7 +39,7 @@ const Apply = () => {
                 key={info.id}
                 className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
               >
-                <img src={info.img} alt="icons" width={20} height={20} />
+                <Image src={info.img} alt="icons" width={20} height={20} />
               </div>
             ))}
           </div>

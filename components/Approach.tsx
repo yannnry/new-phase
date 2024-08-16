@@ -8,14 +8,14 @@ const Approach = () => {
   return (
     <section className="w-full pt-16" id="approach">
       <h2 className="heading mx-auto text-xl md:text-5xl font-bold mb-12 mt-28 md:mb-24 text-center ">
-        The Company's <span className="text-cyan-400">approach</span> to
+        The Company&#39;s <span className="text-cyan-400">approach</span> to
         Development.
       </h2>
       <div className=" flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
           title="Planning and Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+          description="We&#39;ll collaborate to map out your website&#39;s goals, target audience, and key functionalities. We&#39;ll discuss things like site structure, navigation, and content requirements."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -40,7 +40,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+          description="This is where the magic happens! Based on the approved design, I&#39;ll translate everything into functional code, building your website from the ground up."
         >
           <CanvasRevealEffect
             animationSpeed={3}
