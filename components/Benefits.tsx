@@ -13,10 +13,10 @@ export function Benefits() {
           <div className="flex-1 text-center md:text-left">Company X</div>
           <Compare
             firstImage="/companyx.png"
-            secondImage="newphase.png"
+            secondImage="/newphase.png"
             firstImageClassName="object-cover object-left-top"
             secondImageClassname="object-cover object-left-top"
-            className="h-[250px] w-[200px] md:h-[700px] md:w-[700px]"
+            className="h-[200px] w-[200px] md:h-[700px] md:w-[700px]"
             slideMode="hover"
           />
           <div className="flex-1 text-center md:text-right">New Phase</div>
