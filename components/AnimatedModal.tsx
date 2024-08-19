@@ -37,18 +37,18 @@ export function AnimatedModalDemo() {
               <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
                 <LabelInputContainer>
                   <Label htmlFor="firstname">First name</Label>
-                  <Input id="firstname" placeholder="Joshua Ryan" type="text" />
+                  <Input id="firstname" placeholder="Henry" type="text" />
                 </LabelInputContainer>
                 <LabelInputContainer>
                   <Label htmlFor="lastname">Last name</Label>
-                  <Input id="lastname" placeholder="Altar" type="text" />
+                  <Input id="lastname" placeholder="Dex" type="text" />
                 </LabelInputContainer>
               </div>
               <LabelInputContainer className="mb-4">
                 <Label htmlFor="email">Email Address</Label>
                 <Input
                   id="email"
-                  placeholder="joshua.ryan@newphase.com"
+                  placeholder="henry.dex@newphase.com"
                   type="email"
                 />
               </LabelInputContainer>
